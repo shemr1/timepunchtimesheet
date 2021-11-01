@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1001736179674",
+    "project_id": "timepunch-a7b2b",
+    "storage_bucket": "timepunch-a7b2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001736179674:android:e2961d0002beb285cf3ae3",
+        "android_client_info": {
+          "package_name": "com.idmaps.timepunchtimesheet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001736179674-odheekfcp4c5stgfpbodh8bq543ikeqp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCEHqARhuP0xhPNRLOY4rrdSL2b8tGHk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1001736179674-odheekfcp4c5stgfpbodh8bq543ikeqp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
