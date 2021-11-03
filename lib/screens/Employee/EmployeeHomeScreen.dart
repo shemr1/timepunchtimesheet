@@ -7,6 +7,7 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:location/location.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:flutter/material.dart';
+import 'package:timepunchtimesheet/Widgets/Drawer.dart';
 
 
 
@@ -75,7 +76,7 @@ class _EmployeeHomeScreenState extends State<EmployeeHomeScreen> {
           Text(x.toString()),
         ],
       ),
-      drawer: Drawer(),
+      drawer: Drawers(),
       body: Container(
         decoration: BoxDecoration(
           color: Colors.black,
@@ -165,7 +166,7 @@ class _EmployeeHomeScreenState extends State<EmployeeHomeScreen> {
     books.doc(formatted).get().then((value) => {
           if (!value.exists)
             {
-              books.doc(formatted).set({"Clocked in": DateTime.now()})
+              books.doc(formatted).set({"Date": DateFormat.yMd().format(DateTime.now()), "Clocked in": DateTime.now()})
             }
           else
             {
